@@ -1,0 +1,53 @@
+body{
+	background-color: blanchedalmond;
+}
+
+.Introduction{
+	font-size: large;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgb(224, 233, 159);
+	padding: 5px;
+	margin: 5px;
+}
+
+.Projects{
+	background-color: rgb(242, 255, 101);
+	margin: 5px;
+	padding: 10px;
+}
+
+#Advanced-Bank-Management{
+	background-color: rgb(230, 255, 69);
+	margin: 5px;
+	padding: 5px;
+}
+
+#Snake-Game{
+	background-color: yellowgreen;
+	margin: 5px;
+	padding: 5px;
+}
+
+.Technical-Skills{
+	background-color: wheat;
+	margin: 5px;
+	padding: 5px;
+}
+
+.Experience{
+	background-color: palegoldenrod;
+	margin: 5px;
+	padding: 5px;
+}
+
+.Education{
+	background-color:khaki;
+	margin: 5px;
+	padding: 5px;
+}
+
+.ContactInfo{
+	background-color: lightyellow;
+	margin: 5px;
+	padding: 5px;
+}

@@ -28,8 +28,14 @@ body{
 	padding: 5px;
 }
 
+#Jarvis-AI{
+	background-color: azure;
+	margin : 5px;
+	padding : 5px;
+}
+
 .Technical-Skills{
-	background-color: wheat;
+	background-color: burlywood;
 	margin: 5px;
 	padding: 5px;
 }

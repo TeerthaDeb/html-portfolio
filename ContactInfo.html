@@ -4,23 +4,33 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel = "stylesheet" href = "./Style.CSS">
+		<link rel = "stylesheet" href = "contanctInfoStyles.css">
 		<title>Contract Me</title>
 	</head>
 
 
 	<body>
-		<section class = "ContactInfo">
-			<h2>Contact Me</h2>
+		
+		<div class="contact-info">
+			<h2>Contact Information</h2>
 			<ul>
-			  <li>Email: <a href="mailto:teertha.deb579@gmail.com">teertha.deb579@gmail.com</a></li>
-			  <li>LinkedIn: <a href="https://www.linkedin.com/in/Maharaj-Teertha-Deb" target="_blank">linkedin.com/in/Maharaj-Teertha-Deb</a></li>
-			  <li>Resume : <a href = "https://flowcv.com/resume/4ob33oo27s">Resume</a></li>
-			  <li>GitHub : <a href = "https://github.com/TeerthaDeb">Teertha Deb</a></li>
-			  <li>PortFolio : <a href = "../index.html">Portfolio</a></li>
-			  <li>Location: Montreal, Quebec</li>
+				<li><i class="fas fa-map-marker-alt"></i> 1234 Main Street, City, Country</li>
+				<li><i class="fas fa-phone"></i> +1234567890</li>
+				<li><i class="fas fa-envelope"></i> example@email.com</li>
 			</ul>
-		</section>
+			<form id="contact-form">
+				<input type="email" id="email" placeholder="Your email" required><br>
+				<input type="tel" id="phone" placeholder="Your phone"><br>
+				<textarea id="message" placeholder="Your message" required></textarea><br>
+				<button type="submit">Send</button>
+			</form>
+			
+			<div id="status"></div>			
+		</div>
+		
+		<script src = "contanctInfoStyles.js">
+
+		</script>
 	</body>
 	
 </html>

@@ -1,171 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel = "stylesheet" href = "./Style.CSS">
-		<title>Portfolio of Maharaj Teertha Deb</title>
-	</head>
-
-
-	<body>
-		<h1>Welcome to my Portfolio.</h1>
-		<!-- Introduction Starts Here-->
-		<div class = "Introduction">
-			<h2>Introduction: </h2>
-				<h3>
-					<p>
-						👋 Hello! I'm Maharaj Teertha Deb, a highly proficient software developer with a strong background in C++, C# , Python, Java, and SQL. 💻💡 With 3+ years of experience and a Bachelor's degree in Computer Science from Concordia University, I'm skilled in designing algorithms, solving complex problems, and adapting to new technologies. 🎓🌟 I have a passion for coding contests and have actively participated in online competitions. 🏆🌐 Additionally, I bring customer service experience and have successfully tutored students in computer programming. 📚✨ Let's connect and explore how my skills can contribute to your projects! 🤝🌟
-					</p>
-					<p>
-						Linked IN: <a href= "https://www.linkedin.com/in/maharaj-teertha-deb/">Maharaj Teertha Deb</a>
-					</p>
-				</h3>
-			<hr/>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PortFolio Maharaj Teertha Deb</title>
+	<link rel = "stylesheet" , href = "Style.CSS">
+	<!-- This For Social Medias -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+	<header>
+		<label class="menu-icon" for="menu-toggle">&#9776;</label>
+		<input type="checkbox" id="menu-toggle">
+		<ul>
+			<li><a href="#About" id="About">About</a></li>
+			<li><a href= "Experience.html" id="Experience">Experience</a></li>
+			<li><a href="#" id="Education">Education</a></li>
+			<li><a href="#" id="Project">Projects</a></li>
+			<li><a href="#" id="Contact">Contact</a></li>
+		</ul>
+		<div class="Resume">
+			<a href = "https://flowcv.com/resume/5mk8wdn0fn" id="resume-link">Resume</a>
 		</div>
-		
-		<!-- Highlighting projects starts here. -->
-		<div class = "Projects">
-			<h2>Projects: </h2>
-			<ol>
-				<li id = "Advanced-Bank-Management">
-					<a href= "https://github.com/TeerthaDeb/Advanced-Bank-Management">Advanced Bank Management System.(C++)</a>
-					<ul>
-						<a href= "https://github.com/TeerthaDeb/Advanced-Bank-Management"><img src = "./assets/ProjectPictures/Advanced Bank Management System.png" , alt = "A screenshot of the home Screen" , height = "450"></a>				
-						<li>Developed a log in screen so that Clients, Bank Employees and Managers have separate log in method.</li>
-						<li>Clients can transfer, withdraw, deposit money and see their last 50 transections.</li>
-						<li>Managers and Employees can add, modify and delete accounts.</li>
-						<li>A particular client or employee does not have access to another persons account, while Managers have all access.</li>
-					</ul>
-				</li>
-				
-				<li id = "Snake-Game">
-					<a href = "https://github.com/TeerthaDeb/Snake-Game">Snake Game Using C++. (version : 3.0.0)</a>
-					<ul>
-						<a href = "https://github.com/TeerthaDeb/Snake-Game"><img src = "./assets/ProjectPictures/Snake Game , in Game.png" , alt = "screenshot of Snake-Game" , width = "900"></a>
-						<li>
-							The main function of the program contains the game loop, which continuously updates the position of the snake and checks for collisions with the food and walls, user input and updates the score and game-over status. When the game is over, the program displays the final score with rank board and asks the player if they want to play again.
-						</li>
-					</ul>
-				</li>
+	</header>
+	<!--Header ends here-->
+	<article>
+		<section class = "Name">
+			<h2>
+				Hello World! I am
+			</h2>
+			<h2>
+				Maharaj Teertha Deb
+			</h2>
+			<img src = "assets/MyPicture.jpg">
+		</section>
+		<section id = "About" class="Introduction">
+			<h2>About Me</h2>
+			<p>
+				👋 Hello! I'm Maharaj Teertha Deb, a highly proficient software developer with a strong background in C++, C#, Python, and Java. 
+				With over 3 years of experience in competitive programming and a Bachelor's degree in Computer Science from Concordia University, 
+				I've honed my skills in designing efficient algorithms, tackling complex problems, and adapting swiftly to emerging technologies.
+			</p>
+			<p>
+				🎓🌟 My passion for coding contests has driven me to actively participate in online competitions, earning accolades and expanding my 
+				expertise in the process. Additionally, I bring valuable customer service experience, having successfully tutored students in computer 
+				programming, enriching their learning journeys.
+			</p>
+			<p>
+				🌟 Let's connect and explore how my skills can contribute to your projects! 
+				<a href="https://www.linkedin.com/in/maharaj-teertha-deb/" , class = "LinkedIn">LinkedIn</a>.
+			</p>
+		</section>
+	</article>
 
-				<li id = "Jarvis-AI">
-					<a href = "https://github.com/TeerthaDeb/Jarvis-AI"> Jarvis AI (Pythodn)</a>
-					<ul>
-						<a href = "https://github.com/TeerthaDeb/Jarvis-AI"> <img src = "./assets/ProjectPictures/Jarvis-AI.jpg" , alt = "screenshot of Jarvis-AI" , width = "900"></a>
-						<li> Achieved successful execution over 3-hour testing, responding accurately to 500+ voice commands. </li>
-						<li> Utilized pyttsx3 for speech synthesis, speech_recognition for speech-to-text, and BeautifulSoup for web scraping. </li>
-						<li> Navigated challenges, learning to integrate emerging technologies in AI and NLP. </li>
-					</ul>
-				</li>
-			</ol>
-			<hr/>
-		</div>
+	<footer>
+		<p>
+			Socials :
+		</p>
+		<ul id = "SocialAccounts">
+			<ul>
+				<li><a href="https://www.facebook.com/teertha.deb.5" class="social-link"><i class="fab fa-facebook-f icon"></i></a></li>
+				<li><a href="https://github.com/TeerthaDeb" class="social-link"><i class="fab fa-github icon"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/maharaj-teertha-deb/" class="social-link"><i class="fab fa-linkedin-in icon"></i></a></li>
+				<li><a href="https://www.stopstalk.com/user/profile/Teertha_Deb" class="social-link"><i class="fas fa-globe icon"></i></a></li>
+				<!-- Add more social icons similarly -->
+			</ul>
+		</ul>
+	</footer>
 
-		<!-- Technical Skills Stats Here:  -->
-
-		<div class = "Technical-Skills">
-			<h1>Technical Skills: </h1>
-			<ol>
-				<li><h3>Programming Languages: C++, Java, SQL, Python : Numpy, Pandas, Matplotlib</h3></li>
-				<li><h3>Problem-Solving: Data Structures and Algorithms, Analytical Skills, Creative Thinking, <a href = "https://www.hackerrank.com/certificates/cab58b55ba31">Certificate in Problem Solving</a> </h3></li>
-				<li><h3>Web Development: HTML, CSS, JavaScript (basic)</h3></li>
-				<li><h3>Tools: Microsoft Office, Database Design, Microsoft Visio, Adobe Creative Suite, GitHub , Git(Version Control)	</h3></li>
-				<li><h3>Integrated Development Environments (IDEs): Visual Studio, Eclipse, PyCharm</h3></li>
-				<li><h3>Communication: Client Satisfaction, Excellent Verbal and Written Skills</h3></li>
-				<li><h3>Interpersonal Skills: Having strong Leadership and Interpersonal skills allows me to collaborate effectively with colleagues, clients, and stakeholders, &nbsp fostering a positive and productive work environment.</h3></li>
-				<li><h3>Design Tools: Adobe Creative Suite (Intermadiate), AutoCAD (basic)</h3></li>
-			</ol>
-			<hr/>
-		</div>
-
-		<!--Work Experience-->
-		<div class = "Experience">
-			<h2>Professional Experience:</h2>
-			<ol>
-				<li>
-				<h3>Online Tutor, TutorOcean-University of Saskatchewan</h3>
-				<p>Jan 2022 – Present | Remote (Online)</p>
-					<ul>
-						<li>Tutoring CMPT-141(Introduction to Computer Programming), CMPT-145(Object Oriented Programming - 1), CMPT-150(Data Structures and Algorithms), and other subjects that I have taken and passed with at least 80% grades.</li>
-						<li>Helping students with assignments, term tests, and finals by explaining topics in simple words and real-life examples.</li>
-						<li>Implementing personalized teaching approaches based on each student's learning style and pace, resulting in 80% of students achieving
-							A+ grades in their respective subjects.</li>
-						<li>Received positive feedback for my engaging teaching style and ability to simplify complex topics, leading to increased
-							demand for tutoring services and an expanded student base</li>
-					</ul>
-				</li>
-
-				<li>
-				<h3>Computing Solution Advisor (Sessional), BestBuy</h3>
-				<p>Oct 2022 – Jan 2023 | Saskatoon, Saskatchewan, Canada</p>
-					<ul>
-						<li>Successfully convinced more than 100 customers to buy warranties by emphasizing their significance and building customer trust
-							within 8 months. </li>
-						<li>Promoted memberships to over 62 customers, resulting in increased loyalty and repeat business.</li>
-						<li>Received "Sales Star" award in recognition of exceptional sales achievements and outstanding contributions to the team.</li>
-						<li>Utilized comprehensive product knowledge to assist customers in finding the ideal products and services to suit their specific needs
-							and preferences, resulting in high levels of customer satisfaction and repeat business. </li>
-					</ul>
-				</li>
-
-				<li>
-				<h3>Server Assistant, Bocci</h3>
-				<p>Jan 2023 – Present | Lasalle, Quebec</p>
-					<ul>
-						<li>Recognized peak rush hours and optimized table preparation to ensure quicker service, reducing table turnover time by 30%. This led
-							to higher tips and enhanced the restaurant's reputation in Lasalle. </li>
-						<li>Assisted customers by providing insights into the restaurant's signature dishes and popular menu items, creating memorable dining
-							experiences and fostering a loyal customer base. </li>
-					</ul>
-				</li>
-				
-			</ol>
-			<hr/>
-		</div>
-
-		
-		<!--Education-->
-		<div class = "Education">
-			<h2>Education</h2>
-				<ol>
-				<li>
-					<strong>Bachelor of Science - Computer Science</strong>
-					<ul>
-					<li>Concordia University</li>
-					<li>Jan 2023 – present</li>
-					<li>Montreal, Quebec, Canada</li>
-					</ul>
-					<ul>
-					<li>Credit Transfer From University of Saskatchewan</li>
-					</ul>
-				</li>
-				<li>
-					<strong>Bachelor of Science - Computer Science</strong>
-					<ul>
-					<li>University of Saskatchewan</li>
-					<li>Sep 2021 – Dec 2022</li>
-					<li>Saskatoon, Saskatchewan, Canada</li>
-					</ul>
-					<ul>
-					<li>Completed 30 Credits</li>
-					</ul>
-				</li>
-				<li>
-					<strong>Diploma in Graphics Designing</strong>
-					<ul>
-					<li>NCIIT, Technical Board, Bangladesh</li>
-					<li>Jul 2018 – Dec 2018</li>
-					<li>Sreemangal, Sylhet, Bangladesh</li>
-					</ul>
-				</li>
-				</ol>
-			<hr/>
-		</div>
-		<!-- Contact Me Starts Here. -->
-		<div class = "ContactInfo">
-			<h2><a href = "./ContactInfo.html">Click Here</a> to get my contact info.</h2>
-		</div>
-	</body>
+</body>
 </html>

@@ -5,18 +5,33 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel = "stylesheet" href = "contanctInfoStyles.css">
+		<link rel = "stylesheet" href = "styleForExperience.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 		<title>Contract Me</title>
 	</head>
 
 
 	<body>
-		
+		<header>
+			<label class="menu-icon" for="menu-toggle">&#9776;</label>
+			<input type="checkbox" id="menu-toggle">
+			<ul>
+				<li><a href="index.html" id="About">About</a></li>
+				<li><a href= "Experience.html" id="Experience">Experience</a></li>
+				<li><a href="#" id="Education">Education</a></li>
+				<li><a href="#" id="Project">Projects</a></li>
+			</ul>
+			<div class="Resume">
+				<a href = "https://flowcv.com/resume/5mk8wdn0fn" id="resume-link">Resume</a>
+			</div>
+		</header>
+		<!--Header ends here-->
 		<div class="contact-info">
 			<h2>Contact Information</h2>
 			<ul>
-				<li><i class="fas fa-map-marker-alt"></i> 1234 Main Street, City, Country</li>
-				<li><i class="fas fa-phone"></i> +1234567890</li>
-				<li><i class="fas fa-envelope"></i> example@email.com</li>
+				<li><i class="fas fa-map-marker-alt"></i> Lasalle , QC , Canada</li>
+				<li><i class="fas fa-phone"></i> +1 639 994 1386</li>
+				<li><i class="fas fa-envelope"></i> maharaj.deb@mail.concordia.ca</li>
 			</ul>
 			<form id="contact-form">
 				<input type="email" id="email" placeholder="Your email" required><br>
@@ -27,6 +42,21 @@
 			
 			<div id="status"></div>			
 		</div>
+
+		<footer>
+			<p>
+				Socials :
+			</p>
+			<ul id = "SocialAccounts">
+				<ul>
+					<li><a href="https://www.facebook.com/teertha.deb.5" class="social-link"><i class="fab fa-facebook-f icon"></i></a></li>
+					<li><a href="https://github.com/TeerthaDeb" class="social-link"><i class="fab fa-github icon"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/maharaj-teertha-deb/" class="social-link"><i class="fab fa-linkedin-in icon"></i></a></li>
+					<li><a href="https://www.stopstalk.com/user/profile/Teertha_Deb" class="social-link"><i class="fas fa-globe icon"></i></a></li>
+					<!-- Add more social icons similarly -->
+				</ul>
+			</ul>
+		</footer>
 		
 		<script src = "contanctInfoStyles.js">
 
